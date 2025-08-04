@@ -1,0 +1,59 @@
+Project Category 
+	Desktop Project
+
+Project Title
+	Banking Automation
+
+User Types
+	User
+	Admin
+	
+Role of Admin
+	1. Opening User Account
+	2. Closing User account
+	3. View User Accounts
+	
+Role of user:
+--------------
+	1. Login(Authentication)
+	2. Recover Password
+	3. Updating Profile Picture
+	4. Updating account details (Password, mobile, email)
+	5. Deposit
+	6. Withdraw
+	7. Transfer
+	8. History
+	9. balance check
+
+FrontEnd Libraries
+------------------
+	tkinter (tkinter libraries)
+	pillow(3rd part)
+
+Backend (Database)
+	SQLite
+
+Tables:
+	1. accounts
+		accounts_acno		int primary key autoincrement
+		accounts_name		text
+		account_pass		text
+		accounts_email		text
+		accounts_mob		text
+		accounts_gender		text
+		account_opendate	date
+		accounts_bal		float
+		
+	2. statement
+
+
+
+
+
+
+
+
+
+
+
+
