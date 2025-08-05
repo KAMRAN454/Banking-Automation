@@ -1,5 +1,5 @@
 import gmail
-email - 'xxxxxxx@gmail.com'     #mention your gmail id
+email = 'xxxxxxx@gmail.com'     #mention your gmail id
 app_pass = 'xxxxxxxxxx'    #mention your app password of same gmail account
 def send_mail_for_openacn(to_mail,uacno,uname,upass,udate):
         con=gmail.GMail(email,app _pass)
@@ -36,3 +36,4 @@ def send_otp(to_mail,uname,uotp):
     con.send(msg)
    
     
+
